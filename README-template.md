@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/alamscode-rgb/blog-preview-card-main)
+- Live Site URL: [Add live site URL here](https://blog-preview-card-main-blue.vercel.app/)
 
 ## My process
 
@@ -176,8 +176,6 @@ footer p {
 i will be extending this blog preview using grid layout and use some animation and do this using utility classes in coming days
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@alamscode-rgb](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@alamscode-rgb](https://www.frontendmentor.io/profile/alamscode)
 - Twitter - [@alamscode](https://www.twitter.com/alamscode)
 
