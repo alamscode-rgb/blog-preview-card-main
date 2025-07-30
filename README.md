@@ -50,7 +50,7 @@ Users should be able to:
 i learned how to used sementic element, how to structure layout using flext and width margin and padding properties.
 
 ```html
-<div class="card">
+ <div class="card">
       <header>
         <img src="/assets/images/illustration-article.svg" alt="illustration-article">
       </header>
@@ -82,9 +82,9 @@ i learned how to used sementic element, how to structure layout using flext and 
   padding: 0;
 }
 body {
-  font-family: "figtree";
+  font-family: "figtree",sans-serif;
   font-style: normal;
-  max-width: 1440;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -95,79 +95,80 @@ body {
 }
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 384px;
-  height: 522px;
+  width: 24rem;
+  height: 32.6rem;
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 15px;
+  border-radius: 1rem;
   color: hsl(0, 0%, 7%);
-  box-shadow: 10px 10px 1px rgb(0, 0, 0);
+  box-shadow: 0.62rem 0.62rem 1px rgb(0, 0, 0);
 }
 header {
   flex: 1 1 100%;
-  padding: 24px 24px 0 24px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
 }
 header img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.62rem;
 }
 main {
   flex: 1 1 100%;
-  padding: 24px 24px 0 24px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
 }
 main span {
   background-color: hsl(47, 88%, 63%);
-  padding: 9px 12px;
-  border-radius: 5px;
-  font-size: 14px;
+  padding: 0.562rem 0.75rem;
+  border-radius: 0.312rem;
+  font-size: 0.87rem;
   font-weight: bold;
 }
 main p:nth-of-type(1) {
-  margin-top: 24px;
-  font-size: 14px;
+  margin-block-start: 1.5rem;
+  font-size: 0.87rem;
 }
 
 main h1 {
-  font-size: 24px;
-  margin-top: 24px;
+  font-size: 1.5rem;
+  margin-block-start: 1.5rem;
   width: 100%;
-  margin-bottom: 28px;
+  margin-block-end: 1.75rem;
 }
 main h1:hover{
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
 main p:nth-of-type(2) {
-  margin-top: 24px;
-  font-size: 16px;
+  margin-block-start: 1.5rem;
+  font-size: 1rem;
   color: hsl(0, 0%, 42%);
 }
 footer {
   flex: 1 1 100%;
   display: flex;
-  gap: 12px;
+  gap: 0.80rem;
   justify-content: start;
   align-items: center;
-  margin: 24px 0 24px 24px;
+  margin: 1.5rem 0 1.5rem 1.5rem;
 }
 footer img {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
-footer p {
-  font-size: 14px;
+footer>p {
+  font-size: 0.87rem;
   font-weight: bold;
 }
 
 @media (max-width: 377px) {
   .card {    
-    width: 327px;
-    height: 501px;
-    margin-left: 24px;
-    margin-right: 24px;
+    width: 20.5em;
+    height: 31.3em;
+    margin-inline-start: 1.5em;
+    margin-inline-end: 1.5em;
   }
 }
+
 
 ```
 
